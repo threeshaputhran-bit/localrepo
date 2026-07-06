@@ -1,0 +1,29 @@
+p{
+    color: aqua;
+}
+
+h1{
+    font-size: large;
+    color: yellow;
+}
+
+a:link{
+    color: red;
+    text-decoration: none;
+}
+a:visited{
+    color: brown;
+}
+
+a:hover{
+    color: aqua;
+}
+
+a:active{
+    color: rgb(196, 53, 177);
+}
+
+table,th,td{
+    border:1px solid rgb(19, 18, 18);
+    border-collapse: collapse;
+}
