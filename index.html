@@ -34,7 +34,7 @@
     <img src="flower.jpg" alt="Flower Image" width="300">
     <a href="mailto:threeshaputhran05@gmail.com">Send Email</a>
 
-     <p>
+    <p>
         <a href="#c10">Jump to Chapter 10</a>
     </p>
 
@@ -186,15 +186,127 @@
 
 
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31054.565779693232!2d74.67705086647972!3d13.36142107184114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbcbc1a3ff8b9bd%3A0x7c5dbd41c1abb9c2!2sMalpe%20Beach!5e0!3m2!1sen!2sin!4v1783317550536!5m2!1sen!2sin"
-    width="600" 
-    height="450" 
-    style="border:0;" 
-    allowfullscreen="" 
-    loading="lazy" 
-    referrerpolicy="strict-origin-when-cross-origin">
-</iframe>
+    <iframe  
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31054.565779693232!2d74.67705086647972!3d13.36142107184114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbcbc1a3ff8b9bd%3A0x7c5dbd41c1abb9c2!2sMalpe%20Beach!5e0!3m2!1sen!2sin!4v1783317550536!5m2!1sen!2sin"
+        width="600" 
+        height="450" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="strict-origin-when-cross-origin">
+    </iframe>
 
 
+    <form>
+
+        <label for="name">First Name:</label>
+        <input type="text" id="name" name="name">
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+
+        <label for="file">Upload Image:</label>
+        <input type="file" id="file" name="file">
+        <br><br>
+
+        <label for="skill">Skill Range:</label>
+        <input type="range" id="skill" name="skill" min="0" max="100">
+        <br><br>
+
+        <label for="dob">DOB:</label>
+        <input type="date" id="dob" name="dob">
+        <br><br>
+
+        <label>phone number:</label>
+        <input type="tel">
+        <br><br>
+
+        <label>radio button:</label>
+        <input type="radio">
+        <br><br>
+
+        <label>choose fvt color:</label>
+        <input type="color">
+        <br><br>
+
+        <label>add image:</label>
+        <input type="image">
+        <br><br>
+
+        <label>url:</label>
+        <input type="url">
+        <br><br>
+
+        <label>week:</label>
+        <input type="week">
+        <br><br>
+
+        <label>time:</label>
+        <input type="time">
+        <br><br>
+
+        <label>search:</label>
+        <input type="search">
+        <br><br>
+
+        <label>password:</label>
+        <input type="password">
+        <br><br>
+
+        <label>reset:</label>
+        <input type="reset">
+        <br><br>
+        <input type="submit" value="Save">
+
+    <fieldset>
+        <legend>Student Registration</legend>
+
+        <label>country</label>
+        <select>
+            <optgroup label="asia">
+                <option>india</option>
+                <option>japan</option>
+                <option>china</option>
+            </optgroup>
+        </select>
+        <br>
+
+        <textarea>
+        </textarea>
+        <br>
+
+        <label>City</label>
+        <input list="cities">
+        <datalist id="cities">
+            <option value="bangalore"></option>
+            <option value="mumbai"></option>
+            <option value="mysore"></option>
+        </datalist>
+        <br>
+
+        <output>Registration successfull</output>
+        <button type="sumbit">submit</button>
+        <br>
+
+    </fieldset>
+    <br>
+    </form>
+
+    <form action="welcome.html">
+        <label for="email">Enter your Email</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <label for="password">Enter your Password</label><br>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+
+        <input type="submit" value="Login">
+
+
+ 
+    </form>
 </body>
 </html>
