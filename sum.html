@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum</title>
+</head>
+<body>
+
+    <input type="number" id="num1" placeholder="Enter The Num 1"><br><br>
+
+    <input type="number" id="num2" placeholder="Enter The Num 2"><br><br>
+
+    <button onclick="addNumbers()">Add</button>
+
+    <h3 id="result"></h3>
+
+    <script>
+        let addNumbers = () => {
+
+            let a = Number(document.getElementById("num1").value);
+
+            let b = Number(document.getElementById("num2").value);
+
+            document.getElementById("result").innerHTML = "Sum = " + (a + b);
+
+        }
+    </script>
+
+</body>
+</html>
